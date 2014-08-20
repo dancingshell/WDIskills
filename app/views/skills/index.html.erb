@@ -1,0 +1,8 @@
+<h1>My skillz</h1>
+
+<% @skills.each do |s| %>
+<li><%= s.skill %></li>
+<% end %>
+
+<%= link_to "Back to Categories", categories_path %>
+<%= link_to "Add new skill", new_category_skill_path %>

@@ -1,0 +1,8 @@
+<h1>Skills#new</h1>
+
+<%= form_for @skill, {url: category_skills_path(@category)} do |f| %>
+<%= f.text_field :skill, placeholder: "Add your skill!" %>
+<%= f.submit "Submit" %>
+<% end %>
+
+<%= link_to "Back to all skills", category_skills_path(@category) %>

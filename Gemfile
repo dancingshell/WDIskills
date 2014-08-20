@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 
-
+gem 'mongoid', github:"mongoid/mongoid"
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 
@@ -29,6 +29,14 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
+
+
+gem 'bootstrap-sass', '~> 3.2.0'
+
+gem 'sinatra',    '~> 1.3.5'
+gem 'rest-client', '~> 1.6.3'
+
+gem "rack"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
